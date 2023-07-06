@@ -55,7 +55,7 @@ body {
 .modal {
   background: linear-gradient(to bottom, #4f46e5 10%, #56caff 30%, #4ade80 90%);
   position: fixed;
-  overflow: scroll;
+  overflow: auto;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
