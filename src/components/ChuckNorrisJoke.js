@@ -53,9 +53,7 @@ const ChuckNorrisJokes = () => {
 
   return (
     <div>
-    
-      <h1>Chuck Norris Jokes</h1>
-   
+    <nav><h1>Chuck Norris Jokes</h1></nav>
       <div className="categories">
         {categories.map((category) => (
           <button
