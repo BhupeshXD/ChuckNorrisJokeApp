@@ -53,7 +53,7 @@ body {
 
 
 .modal {
-  background: linear-gradient(to bottom, #4f46e5 10%, #56caff 30%, #4ade80 90%);
+  background: linear-gradient(to right,#BFF098, #6FD6FF);
   position: fixed;
   overflow: auto;
   top: 50%;
