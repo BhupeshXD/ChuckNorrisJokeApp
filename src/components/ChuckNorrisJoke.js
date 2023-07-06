@@ -67,6 +67,7 @@ const ChuckNorrisJokes = () => {
       <div className='heading'>
         <h1>Chuck Norris Jokes</h1>
       </div>
+
       <div className="categories">
         {categories.map((category) => (
           <button
@@ -75,7 +76,10 @@ const ChuckNorrisJokes = () => {
             className={`category ${selectedCategory === category ? 'active' : ''
               }`}
           >
-            {category}
+            <div>
+              <h3>{category}</h3>
+              <p className='para'>Unlimited jokes on {category}</p>
+            </div>
           </button>
         ))}
       </div>
